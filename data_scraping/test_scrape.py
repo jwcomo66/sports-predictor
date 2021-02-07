@@ -13,3 +13,10 @@ client.play_by_play(
     output_type=OutputType.CSV, 
     output_file_path="./2018_10_06_BOS_PBP.csv"
 )
+
+client.regular_season_player_box_scores(
+    player_identifier="westbru01", 
+    season_end_year=2018, 
+    output_type=OutputType.CSV, 
+    output_file_path="./2017_2018_russell_westbrook_regular_season_box_scores.csv"
+)
